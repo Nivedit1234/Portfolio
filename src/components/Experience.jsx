@@ -11,7 +11,7 @@ import react from '../assets/react.png';
 import tailwind from '../assets/tailwind.png';
 import express2 from '../assets/express2.png';
 import mongodb from '../assets/mongodb.png';
-
+import socket_io from '../assets/socket_io.png';
  
 const Experience = () => {
   const techs=[
@@ -25,7 +25,7 @@ const Experience = () => {
         id:2,
         src:react,
         title:'react',
-        style:'shadow-blue-600'
+        style:'shadow-blue-400'
     },
     {
         id:3,
@@ -78,6 +78,14 @@ const Experience = () => {
         title:'CSS',
         style:'shadow-blue-500'
     },
+    {
+        id:11,
+        src:socket_io,
+        title:'socket-io',
+        style:'shadow-white'
+    }
+
+
     
 
   ]
